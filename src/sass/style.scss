@@ -1,8 +1,23 @@
+
+@import "./libs/fonts";
+@import "./libs/bootstrap-grid.min";
+@import "./libs/bootstrap-reboot.min";
+
+
+@import "./base/variables";
+@import "./base/mixins";
+@import "./base/media";
+
+
+
 * {
     font-family: 'Roboto', sans-serif;
 }
 
-@import "variables";
-@import "mixins";
-@import "general";
-@import "media";
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+
+@import "./blocks/general"
